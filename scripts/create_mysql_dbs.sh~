@@ -26,7 +26,7 @@ $MYSQL_CMD '-e grant all on dbApiMgt.* TO ApiMgtUser@"%" identified by "ApiMgtUs
 $MYSQL_CMD '-e grant all on dbApiStatus.* TO ApiStatuUser@"%" identified by "ApiStatuUserPass"'
 $MYSQL_CMD '-e grant all on dbISConfig.* TO ConfigDBUser@"%" identified by "ConfigDBUserPass"'
 
-$MYSQL_CMD dbApimConfig < /scripts/apimgt.sql
+$MYSQL_CMD dbApimConfig < /scripts/apimconfig.sql
 $MYSQL_CMD dbUserstore < /scripts/userstore.sql
 $MYSQL_CMD dbGovernance < /scripts/registry.sql
 $MYSQL_CMD dbApiStatus < /scripts/mysql.sql
