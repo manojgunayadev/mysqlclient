@@ -32,3 +32,4 @@ $MYSQL_CMD dbGovernance < /scripts/registry.sql
 $MYSQL_CMD dbApiStatus < /scripts/mysql.sql
 $MYSQL_CMD dbApiMgt < /scripts/apimgt.sql
 $MYSQL_CMD dbApiMgt < /scripts/identity.sql
+$MYSQL_CMD dbISConfig < /scripts/identityconfig.sql
